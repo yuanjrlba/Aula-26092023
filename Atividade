@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Atividade{
+    public static void main(){
+        Scanner scanner = new Scanner(System.in);
+        int x;
+        int y;
+        System.out.println("digite um número ");
+        x = scanner.nextInt();
+        System.out.println("digite outro número ");
+        y = scanner.nextInt();
+        if (y>x){
+            System.out.println(y + " é maior que " + x);
+        }else{
+            System.out.println(x + " é maior que " + y);
+        }
+    }
+}
